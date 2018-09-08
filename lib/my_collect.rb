@@ -6,3 +6,6 @@ def collect(array)
     while i < array.length
       collection << yield(array[i])
     end
+  end
+  collection
+end
