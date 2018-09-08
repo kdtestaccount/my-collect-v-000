@@ -1,6 +1,6 @@
 
 
-def collect(array)
+def my_collect(array)
   collection = []
   if array != []
     while i < array.length
